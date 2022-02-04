@@ -49,3 +49,40 @@ results = model(img)
 # Results
 results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 ```
+</details>
+
+## <div align="center">How To Use This Model</div>
+ This Model is trained on data set containing Two categories **[Car,Person]**
+<details open>
+<summary>Steps to use this Model</summary>
+ 1) Clone repo, install dependencies and check PyTorch and GPU.
+ use these commands to do it
+
+ ```python
+# !git clone https://github.com/ultralytics/yolov5  # clone
+ 
+# %cd yolov5
+ 
+# %pip install -qr requirements.txt  # install
+ ```
+2) Download weights from my drive
+```python
+# https://drive.google.com/file/d/1-5UOrK0zzpJEV5VAkp-h_v1USYbgdE-t/view?usp=sharing
+```
+3)Load this file in inference 
+```bash
+ !python detect.py --weights "best.pt" --img 640 --conf 0.25 --source "Image.jpg"
+```
+Done
+ 
+</details>
+
+## <div align="center">Recommondations</div>
+<details open>
+<summary>Recommondations</summary>
+ 
+ ```
+ - This weights are from only 160 epochs so you can start training your model with this weights as initial weights for better accuracy
+ - Include mode data in training data with multiple daytime and low-light conditions for better accuracy 
+ ```
+ </details>
