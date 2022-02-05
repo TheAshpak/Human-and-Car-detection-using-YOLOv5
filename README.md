@@ -83,6 +83,42 @@ Done
  
  ```
  - This weights are from only 160 epochs so you can start training your model with this weights as initial weights for better accuracy
- - Include mode data in training data with multiple daytime and low-light conditions for better accuracy 
+ - Include more data in training with multiple daytime and low-light conditions for better accuracy
+ - More training is needed for model to draw proper bounding box
  ```
+ </details>
+
+## <div align="center">Few Sample Predictins From Model</div>
+<details open>
+<summary>Predictions</summary>
+
+### Image 1
+ ![pred_1](https://user-images.githubusercontent.com/83882379/152647859-b31a5409-9006-4aaa-97e9-d36a91083afb.jpg)
+ 
+### Image 2
+
+ ![Pred_2](https://user-images.githubusercontent.com/83882379/152647901-d54d1e0a-68ac-47a3-81f0-9b3c11cb6789.jpg)
+
+ ### Image 3
+ 
+ ![Pred_3](https://user-images.githubusercontent.com/83882379/152647909-1d3e17bb-e802-4513-b8da-28978a1a7f65.jpg)
+
+  ### Image 4
+ 
+ ![Pred_4](https://user-images.githubusercontent.com/83882379/152647914-30aeae1f-6ab3-4955-8d14-3e8b87b9bf82.jpg)
+
+ ### Image 5
+ 
+ ![Pred_5](https://user-images.githubusercontent.com/83882379/152647922-b1881eb1-25eb-468d-af8f-6accbc586238.png)
+ 
+### Image 6
+ ![Pred_6](https://user-images.githubusercontent.com/83882379/152647927-506e5692-ed45-44ab-a9eb-f3e0b38ebd71.jpg)
+
+### Image 7
+
+ ![Pred_7](https://user-images.githubusercontent.com/83882379/152647929-e0fa97ae-0fd9-4e57-8a9d-1d8e5353944f.jpg)
+
+ ### Image 8
+ 
+ ![Pred_8](https://user-images.githubusercontent.com/83882379/152647931-218ced82-7758-436c-bed7-a64f90c7c954.jpg)
  </details>
