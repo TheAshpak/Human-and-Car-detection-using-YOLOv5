@@ -65,15 +65,19 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
  
 # %pip install -qr requirements.txt  # install
  ```
-2) Download weights from my drive
-```python
+ 
+ 2)Download weights from my drive
+
+ ```python
 # https://drive.google.com/file/d/1-5UOrK0zzpJEV5VAkp-h_v1USYbgdE-t/view?usp=sharing
-```
-3)Load this file in inference 
-```bash
+ ```
+ 
+ 3)Load this downloded weights for inference 
+
+ ```bash
  !python detect.py --weights "best.pt" --img 640 --conf 0.25 --source "Image.jpg"
-```
-Done
+ ```
+ Done
  
 </details>
 
